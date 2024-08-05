@@ -19,9 +19,9 @@ jobs:
         - name: Add remote
           env:
             Hugging_Face: ${{ secrets.Hugging_Face }}
-          run: git remote add space https://Prernak12:$Hugging_Face@huggingface.co/spaces/Prernaaa/Hugging_face_demo2
+          run: git remote add space https://huggingface.co/spaces/Prernaaa/Hugging_face_demo2
         - name: Push to hub
           env:
             Hugging_Face : ${{ secrets.Hugging_Face }}
-          run: git push --force https://Prernak12:$Hugging_Face@huggingface.co/spaces/Prernaaa/Hugging_face_demo2 main
+          run: git push --force hhttps://huggingface.co/spaces/Prernaaa/Hugging_face_demo2 main
         
